@@ -4,6 +4,12 @@
     <h1>My Cart</h1>
   </header>
 
+  <% if enhanced_cart == [] %>
+  <div> Cart is empty </div>
+  <a  href="/">Return to Home Page</a>
+
+  <% else %>
+
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -14,18 +20,24 @@
           <th>Price</th>
         </tr>
       </thead>
+
+   
+
       <tbody>
         <% enhanced_cart.each do |item| %>
           <%= render 'item', product: item[:product], quantity: item[:quantity].to_i %>
-        <% end %>
+        
       </tbody>
+
+      <% end %>
+
       <tfoot>
         <tr>
           <th colspan="4">
             TOTAL:
           </th>
           <th>
-            <%= humanized_money_with_symbol cart_subtotal_cents / 100.0 %>
+            <%= cart_subtotal_cents / 100.0 %>
           </th>
         </tr>
       </tfoot>
@@ -48,5 +60,6 @@
       <% end %>
     </div>
   </div>
-
+  
 </section>
+<% end %>
