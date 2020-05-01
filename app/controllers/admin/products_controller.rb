@@ -1,6 +1,6 @@
 class Admin::ProductsController < ApplicationController
 
-  # include HttpAuthConcern
+  include HttpAuthConcern
 
   def index
     
