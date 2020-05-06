@@ -8,10 +8,15 @@
 
 // Global
 body {
-  padding-top: 70px;
+	padding-top: 70px;
 }
 
 // Bootstrap adjustments
 form.button_to {
-  display: inline;
+	display: inline;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
 }

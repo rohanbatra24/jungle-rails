@@ -1,6 +1,14 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2. 
+
+## Final Product
+
+!["Main page"](https://github.com/rohanbatra24/scheduler/blob/master/docs/Main%20page.png?raw=true)
+!["Create new appointment"](https://github.com/rohanbatra24/scheduler/blob/master/docs/Create%20new%20appointment.png?raw=true)
+!["Appointment on hover"](https://github.com/rohanbatra24/scheduler/blob/master/docs/Appointment%20on%20hover.png?raw=true)
+!["Delete confirmation"](https://github.com/rohanbatra24/scheduler/blob/master/docs/Delete%20confirmation.png?raw=true)
+
 
 
 ## Setup
