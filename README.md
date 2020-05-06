@@ -4,10 +4,11 @@ A mini e-commerce application built with Rails 4.2.
 
 ## Final Product
 
-!["Main page"](https://github.com/rohanbatra24/scheduler/blob/master/docs/Main%20page.png?raw=true)
-!["Create new appointment"](https://github.com/rohanbatra24/scheduler/blob/master/docs/Create%20new%20appointment.png?raw=true)
-!["Appointment on hover"](https://github.com/rohanbatra24/scheduler/blob/master/docs/Appointment%20on%20hover.png?raw=true)
-!["Delete confirmation"](https://github.com/rohanbatra24/scheduler/blob/master/docs/Delete%20confirmation.png?raw=true)
+!["Main page"](https://github.com/rohanbatra24/jungle-rails/blob/master/docs/HomePage.png?raw=true)
+!["Product Details Page"](https://github.com/rohanbatra24/jungle-rails/blob/master/docs/ProductDetails.png?raw=true)
+!["Admin Page"](https://github.com/rohanbatra24/jungle-rails/blob/master/docs/admin_page.png?raw=true)
+!["Cart"](https://github.com/rohanbatra24/jungle-rails/blob/master/docs/Cart.png?raw=true)
+!["Category Page"](https://github.com/rohanbatra24/jungle-rails/blob/master/docs/CategoriesPage.png?raw=true)
 
 
 
